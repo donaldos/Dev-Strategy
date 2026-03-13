@@ -106,6 +106,10 @@ git push -u origin hotfix/긴급버그명
 - `hotfix/*` → `develop` PR 병합 (이력 동기화)
 
 ---
+## 추가사항
+- feature/* → develop     ✅ PR (코드 리뷰 필요)
+- develop → staging       ✅ 명령어 직접 merge (검증된 코드)
+- staging → main          ✅ 명령어 직접 merge (QA 완료된 코드)
 
 ## 전체 흐름 요약
 
